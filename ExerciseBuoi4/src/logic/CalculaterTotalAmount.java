@@ -57,11 +57,4 @@ public class CalculaterTotalAmount {
 		}
 		return totalAmount;
 	}
-	public float totalAmountFlight2(List<Passenger> listPassenger) {
-		float totalAmount = 0;
-		for(Passenger p : listPassenger) {
-			totalAmount += totalAmountPayPassenger(p);
-		}
-		return totalAmount;
-	}
 }
